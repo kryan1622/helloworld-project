@@ -1,0 +1,18 @@
+package com.qa.persistence.domain;
+
+import com.qa.persistence.repository.AccountMapRepository;
+import com.qa.util.JSONUtil;
+
+public class Runner {
+	public static void main(String[] args) {
+		
+		AccountMapRepository amr = new AccountMapRepository();
+		Account a1 = new Account("Krystal", "Ryan");
+		Account a2 = new Account("Jack", "Ryan");
+		JSONUtil j1 = new JSONUtil();
+		System.out.println(j1.getJSONForObject(a1));
+		System.out.println(j1.getJSONForObject(a2));
+		
+	}
+
+}

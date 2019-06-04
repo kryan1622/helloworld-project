@@ -1,0 +1,24 @@
+package com.qa.persistence.domain;
+
+import com.qa.persistence.repository.AccountMapRepository;
+import com.qa.persistence.repository.Constants;
+import com.qa.util.JSONUtil;
+
+public class Runner {
+	public static void main(String[] args) {
+		
+		AccountMapRepository amr = new AccountMapRepository();
+		amr.createAccount(Constants.ACCOUNT_ONE);
+		amr.createAccount(Constants.ACCOUNT_TWO)
+		amr.deleteAccount(1);
+		
+		
+//		JSONUtil j1 = new JSONUtil();
+//		Account a1 = new Account("Krystal","Ryan");
+//		Account a2 = new Account("Jack","Ryan");
+//		System.out.println(j1.getJSONForObject(a1));
+//		System.out.println(j1.getJSONForObject(a2));
+		
+	}
+
+}
