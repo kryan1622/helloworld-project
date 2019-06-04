@@ -1,0 +1,23 @@
+package helloWorld;
+
+import java.util.HashMap;
+
+    public class alteringMap {
+	private HashMap <Integer,String> map = new HashMap<>();
+
+	public HashMap<Integer, String> getMap() {
+		return map;
+	}
+
+	public void setMap(HashMap<Integer, String> map) {
+		this.map = map;
+	}
+	
+public void adding(int input1, String input2) {	
+		map.put(input1,input2);
+	}
+	
+public void retrieving(int input3) {
+	map.get(input3);
+}
+}

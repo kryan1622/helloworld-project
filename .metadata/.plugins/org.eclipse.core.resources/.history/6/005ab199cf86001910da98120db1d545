@@ -1,0 +1,13 @@
+package helloWorld;
+
+import java.util.HashMap;
+
+public class print {
+	public static void main(String[] args) {
+	System.out.print("Hello World to the standard out");
+	
+	
+	}
+
+}
+
