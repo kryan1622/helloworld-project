@@ -1,0 +1,11 @@
+
+hsquid:S1444"1Make this "public static ACCOUNT_ONE" field final(ฆ๘ถ๚8ข…ฒ-HๅRMINORZVULNERABILITY
+squid:S3008"VRename this field "ACCOUNT_ONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ฆ๘ถ๚8ข…ฒ-HๆRMINORZ
+CODE_SMELL
+ฅ"squid:ClassVariableVisibilityCheck"WMake ACCOUNT_TWO a static final constant or non-public and provide accessors if needed.(ลไ8ข…ฒ-H็RMINORZVULNERABILITY
+squid:S3008"VRename this field "ACCOUNT_TWO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ลไ8ข…ฒ-H่RMINORZ
+CODE_SMELL
+hsquid:S1444"1Make this "public static ACCOUNT_TWO" field final(ลไ8ข…ฒ-H้RMINORZVULNERABILITY
+ssquid:S1118":Add a private constructor to hide the implicit public one.(“ณฑ๛ÿÿÿÿ8็ฒ-H๊RMAJORZ
+CODE_SMELL
+ฅ"squid:ClassVariableVisibilityCheck"WMake ACCOUNT_ONE a static final constant or non-public and provide accessors if needed.(ฆ๘ถ๚8ข…ฒ-H๋RMINORZVULNERABILITY
