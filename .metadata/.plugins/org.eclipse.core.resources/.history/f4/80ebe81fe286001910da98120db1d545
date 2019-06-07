@@ -1,0 +1,16 @@
+package com.qa.persistence.domain;
+
+import com.qa.persistence.repository.AccountMapRepository;
+import com.qa.persistence.repository.Constants;
+import com.qa.util.JSONUtil;
+
+public class Runner {
+	public static void main(String[] args) {
+		
+		AccountMapRepository amr = new AccountMapRepository();
+		amr.createAccount(Constants.ACCOUNT_ONE);
+
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package helloWorld;
+
+public class Print {
+	
+	public String printing() {
+		return "Hello World to the standard out";
+	}
+
+
+}
+

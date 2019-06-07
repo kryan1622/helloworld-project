@@ -1,0 +1,12 @@
+
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ãš»÷HñRMINORZ
+CODE_SMELL
+squid:UselessImportCheck	">Remove this unused import 'com.qa.persistence.domain.Account'.(¶¢›8×şÓ˜²-HòRMINORZ
+CODE_SMELL
+squid:UselessImportCheck
+"ORemove this unused import 'com.qa.persistence.repository.AccountMapRepository'.(µô«ùÿÿÿÿHóRMINORZ
+CODE_SMELL
+fsquid:UselessImportCheck"-Remove this unused import 'org.junit.Assert'.(­ŞLHôRMINORZ
+CODE_SMELL
+½squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œô«İıÿÿÿÿ8×şÓ˜²-HõRCRITICALZ
+CODE_SMELL
